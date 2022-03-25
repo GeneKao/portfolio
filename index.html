@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
     <!--Bootstrap and customised style-->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -69,6 +69,27 @@
       <header class="col-md-12 section">
         <h2 class="projects-title">Projects</h2>
       </header>
+
+      <article class="col-md-4">
+        <img class="img-responsive img-rounded img-thumbnail mouse-hover" data-toggle="modal"
+             data-target="#cra"
+             src="images/cra.png" alt="Coupled Rigid-Block Analysis">
+        <h3 class="title">Coupled Rigid-Block Analysis (CRA)</h3>
+      </article>
+
+      <article class="col-md-4">
+        <img class="img-responsive img-rounded img-thumbnail mouse-hover" data-toggle="modal"
+             data-target="#clash"
+             src="images/ClashManagement.png" alt="Strabag Clash Management System">
+        <h3 class="title">Strabag Clash Management System</h3>
+      </article>
+
+      <article class="col-md-4">
+        <img class="img-responsive img-rounded img-thumbnail mouse-hover" data-toggle="modal"
+             data-target="#scriptbase"
+             src="images/scriptbase2.png" alt="Script-based Product Description">
+        <h3 class="title">Script-based Product Description</h3>
+      </article>
 
       <article class="col-md-4">
         <img class="img-responsive img-rounded img-thumbnail mouse-hover" data-toggle="modal"
@@ -148,13 +169,38 @@
         <img class="img-responsive img-rounded img-thumbnail" src="https://github.com/GeneKao/geneatcg/blob/main/content/about/Gene_profile.jpg?raw=true"
              alt="profile picture">
         <article>
-          <h4 class="big text-center">
-            Gene is a designer, researcher, engineer, and programmer who specialises in computational design, digital fabrication, and visual computing in architecture & computer science. 
-            <br>
-            He believes interdisciplinary research boosts innovation. His passion is combining computation and mathematics with design and fabrication. He received a CAS in Computer Science at ETH Zurich, MSc in Integrative Technologies & Architectural Design Research at Stuttgart University, and BArch at Tamkang University. He worked in software development and R&D in both Germany and Taiwan. Gene is a PhD candidate at the Institute of Technology in Architecture at ETH Zurich, where he is a research assistant in the Block Research Group and NCCR Digital Fabrication. He is supervised by Prof. Philippe Block and co-supervised by Prof. Stelian Coros.
+          <h4 class="text-justify">
+            I am a designer, programmer, and researcher who specialises in computational design, digital fabrication, and visual computing. I have a background in architecture and computer science. My research passion is to bridge various design, engineering fields with computational and fabrication methods. I am currently a PhD candidate at ETH Zurich, supervised by Prof. Philippe Block and co-supervised by Prof. Stelian Coros.
             <br><br>
             Long bio please click <a href="https://www.geneatcg.com/about/">here</a>. 
           </h4>
+        </article>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="scriptbase" role="dialog">
+  <div class="modal-dialog">
+    <!-- PhysX-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title">Script-based Product Description</h3>
+      </div>
+      <div class="modal-body">
+        <article>
+          <br>
+          <img src="images/script-product.png" alt="pavilionKids" style="width:100%">
+          <p class="text-justify">      
+            Using modern programming language as a file format for describing/sharing/visualizing the 3D product information. 
+            Presented at the Linked Data in Architecture and Construction(LDAC) 2017 with Hojoong Chung at Dijon, France. 
+            <br><br>
+            More information to see  <a href="https://hodgoong.github.io/#rnd_script-based">Hojoong's website</a></strong></h4>
+          </p>
         </article>
       </div>
       <div class="modal-footer">
@@ -561,7 +607,7 @@
     </div>
 </div>
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
