@@ -79,6 +79,20 @@
 
       <article class="col-md-4">
         <img class="img-responsive img-rounded img-thumbnail mouse-hover" data-toggle="modal"
+             data-target="#pca"
+             src="images/pca-faces.png" alt="PCA Faces">
+        <h3 class="title">PCA Faces</h3>
+      </article>
+
+      <article class="col-md-4">
+        <img class="img-responsive img-rounded img-thumbnail mouse-hover" data-toggle="modal"
+             data-target="#mit"
+             src="images/mit-build.png" alt="Robotic Force Printing">
+        <h3 class="title">Robotic Force Printing</h3>
+      </article>
+
+      <article class="col-md-4">
+        <img class="img-responsive img-rounded img-thumbnail mouse-hover" data-toggle="modal"
              data-target="#clash"
              src="images/ClashManagement.png" alt="Strabag Clash Management System">
         <h3 class="title">Strabag Clash Management System</h3>
@@ -117,6 +131,12 @@
         <h3 class="title">ICD/ITKE Pavilion 2015/16</h3>
       </article>
 
+      <article class="col-md-4">
+        <img class="img-responsive img-rounded img-thumbnail mouse-hover"
+             src="images/light-sculpt.png" alt="Robotic Light Sculpture" data-toggle="modal" data-target="#sculpt">
+        <h3 class="title">Robotic Light Sculpture</h3>
+      </article>
+      
       <article class="col-md-4">
         <img class="img-responsive img-rounded img-thumbnail mouse-hover"
              src="images/Fish.png" alt="Fish" data-toggle="modal" data-target="#Fish">
@@ -163,7 +183,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">Gene Ting-Chun Kao</h3>
+        <h3 class="modal-title col-md-12 me-auto">Gene Ting-Chun Kao</h3>
       </div>
       <div class="modal-body">
         <img class="img-responsive img-rounded img-thumbnail" src="https://github.com/GeneKao/geneatcg/blob/main/content/about/Gene_profile.jpg?raw=true"
@@ -183,18 +203,163 @@
   </div>
 </div>
 
-<div class="modal fade" id="scriptbase" role="dialog">
+<div class="modal fade" id="cra" role="dialog">
   <div class="modal-dialog">
-    <!-- PhysX-->
+    <!-- Coupled Rigid-Block Analysis (CRA)-->
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">Script-based Product Description</h3>
+        <h3 class="modal-title col-md-12 me-auto">Coupled Rigid-Block Analysis (CRA)</h3>
+      </div>
+      <div class="modal-body">
+        <img src="images/cra-1.png" alt="cra-1" style="width:100%">
+        <article>
+          <br>
+          <h4><strong>
+          Coupled Rigid-Block Analysis: Stability-Aware Design of Complex Discrete-Element Assemblies
+          </strong></h4>
+          <br>
+          <h4><strong>
+            <a href="https://doi.org/10.1016/j.cad.2022.103216">
+              Download paper</a></strong></h4>
+          <br>
+          <h4><strong>
+              Source Code: </strong></h4>
+          <p>Coming Soon!</p>
+          <br>
+          <h4><strong>Abstract:</strong></h4>
+          <p class="big text-justify">
+            The rigid-block equilibrium (RBE) method uses a penalty formulation to measure structural infeasibility or to guide the design of stable discrete-element assemblies from unstable geometry. However, RBE is a purely force-based formulation, and it incorrectly describes stability when complex interface geometries are involved. To overcome this issue, this paper introduces the coupled rigid-block analysis (CRA) method, a more robust approach building upon RBE’s strengths. The CRA method combines equilibrium and kinematics in a penalty formulation in a nonlinear programming problem. An extensive benchmark campaign is used to show how CRA enables accurate modelling of complex three-dimensional discrete-element assemblies formed by rigid blocks. In addition, an interactive stability-aware design process to guide user design towards structurally-sound assemblies is proposed. Finally, the potential of our method for real-world problems are demonstrated by designing complex and scaffolding-free physical models.
+          </p>
+        </article>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="pca" role="dialog">
+  <div class="modal-dialog">
+    <!-- PCA Faces-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title col-md-12 me-auto">PCA Faces</h3>
       </div>
       <div class="modal-body">
         <article>
           <br>
-          <img src="images/script-product.png" alt="pavilionKids" style="width:100%">
+          <img src="images/pca-faces-1.png" alt="pca-faces" style="width:100%">
+          <p class="text-justify">      
+            Course Project, collaboration with Ting-Yu Chen, Wen-Chieh Tung, Kaiyue Shen, Zimeng Jiang. 
+            <br><br>
+            High-dimensional 3d scanned point cloud face data. Implemented rigid registration, non-rigid warping, PCA methods, data processing pipeline of 3D geometric learning, and generated unlimited faces. GUI design for users to morph between faces.
+          </p>
+        </article>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="mit" role="dialog">
+  <div class="modal-dialog">
+    <!-- Robotic Force Printing - MIT Design-Build Workshop-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title col-md-12 me-auto">Robotic Force Printing - MIT Design-Build Workshop</h3>
+      </div>
+      <div class="modal-body">
+        <article>
+          <br>
+          <img src="images/mit-workshop.png" alt="mit-workshop" style="width:100%">
+          <p class="text-justify">      
+            Teaching assistant and mentored students in one-month MIT Design-Build Workshop 2019 in Shanghai. Robotic Force Printing is a joint workshop from MIT Architecture, ETH Zurich Block Research Group, and Tongji University. The workshop explores robotic additive manufacture and assembly of novel shell structures.
+            <br><br>
+            More information to see <a href="https://www.geneatcg.com/robotic-force-printing-mit-design-build-workshop-2019/">my blog post</a></strong></h4>
+          </p>
+        </article>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="clash" role="dialog">
+  <div class="modal-dialog">
+    <!-- Strabag Clash Management System-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title col-md-12 me-auto">Strabag Clash Management System</h3>
+      </div>
+      <div class="modal-body">
+        <article>
+          <br>
+          <img src="images/cms_ui.png" alt="cms_ui" style="width:100%">
+          <p class="text-justify">      
+            Multi-projects & multi-users BIM issue management system with commenting feature and various model review add-ins
+            <br><br>
+            More information to see  <a href="https://hodgoong.github.io/#prod_cms">Hojoong's website</a></strong></h4>
+          </p>
+        </article>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sculpt" role="dialog">
+  <div class="modal-dialog">
+    <!-- Robotic Light Sculpture-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title col-md-12 me-auto">Robotic Light Sculpture</h3>
+      </div>
+      <div class="modal-body">
+        <article>
+          <br>
+          <img src="images/robot-light.png" alt="robot-light" style="width:100%">
+          <p class="text-justify">      
+            Class Project, collaboration with Riccardo Manitta, Hojoong Chung. 
+            <br><br>
+            Light Sculpture is created by an industrial robot. The robot movements were generated by scanning ourselves utilizing Kinect V2 and creating the robot path with the resulting point cloud and pathfinding algorithm.
+            <br><br>
+            More information to see  <a href="https://hodgoong.github.io/#prod_cms">Hojoong's website</a></strong></h4>
+          </p>
+        </article>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="scriptbase" role="dialog">
+  <div class="modal-dialog">
+    <!-- Script-based Product Description-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title col-md-12 me-auto">Script-based Product Description</h3>
+      </div>
+      <div class="modal-body">
+        <article>
+          <br>
+          <img src="images/scriptbase1.png" alt="scriptbase1" style="width:100%">
+          <img src="images/scriptbase2.png" alt="scriptbase2" style="width:100%">
+          <img src="images/scriptbase3.png" alt="scriptbase3" style="width:100%">
           <p class="text-justify">      
             Using modern programming language as a file format for describing/sharing/visualizing the 3D product information. 
             Presented at the Linked Data in Architecture and Construction(LDAC) 2017 with Hojoong Chung at Dijon, France. 
@@ -216,7 +381,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">Leopard</h3>
+        <h3 class="modal-title col-md-12 me-auto">Leopard</h3>
       </div>
       <div class="modal-body">
         <div class="embed-responsive embed-responsive-16by9">
@@ -268,7 +433,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">PhysX.GH</h3>
+        <h3 class="modal-title col-md-12 me-auto">PhysX.GH</h3>
       </div>
       <div class="modal-body">
         <div class="embed-responsive embed-responsive-16by9">
@@ -305,7 +470,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">Fish</h3>
+        <h3 class="modal-title col-md-12 me-auto">Fish</h3>
       </div>
       <div class="modal-body">
         <div class="embed-responsive embed-responsive-16by9">
@@ -340,7 +505,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">Rhino.Python Swarm Bridge</h3>
+        <h3 class="modal-title col-md-12 me-auto">Rhino.Python Swarm Bridge</h3>
       </div>
       <div class="modal-body">
         <div class="embed-responsive embed-responsive-16by9">
@@ -384,7 +549,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">Digital Lamp of Architecture GUI</h3>
+        <h3 class="modal-title col-md-12 me-auto">Digital Lamp of Architecture GUI</h3>
       </div>
       <div class="modal-body">
         <div class="embed-responsive embed-responsive-16by9">
@@ -437,7 +602,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">ICD/ITKE Research Pavilion 2015/16</h3>
+        <h3 class="modal-title col-md-12 me-auto">ICD/ITKE Research Pavilion 2015/16</h3>
       </div>
       <div class="modal-body">
         <img src="images/pavilion-topo.jpg" alt="pavilionTopo" style="width:100%">
@@ -498,7 +663,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">Assembly-aware design of masonry shell structures: a computational approach</h3>
+        <h3 class="modal-title col-md-12 me-auto">Assembly-aware design of masonry shell structures: a computational approach</h3>
       </div>
       <div class="modal-body">
         <div class="embed-responsive embed-responsive-16by9">
@@ -512,7 +677,7 @@
             <a href="https://www.researchgate.net/publication/320188621_Assembly-aware_design_of_masonry_shell_structures_a_computational_approach">
               Download paper</a></strong></h4>
           <br>
-          <h4><strong>Abstract</strong></h4>
+          <h4><strong>Abstract:</strong></h4>
           <p class="big text-justify">
             This paper proposes a workflow for Assembly-Aware Design (AAD) of masonry shell structures and
             introduces an interactive tool in a CAD environment to assist the design process while
@@ -547,7 +712,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">Butterfly Effect Pavilion - Ilan Green Expo</h3>
+        <h3 class="modal-title col-md-12 me-auto">Butterfly Effect Pavilion - Ilan Green Expo</h3>
       </div>
       <div class="modal-body">
         <article>
@@ -573,7 +738,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h3 class="modal-title">LEGO Tool for Rhino</h3>
+        <h3 class="modal-title col-md-12 me-auto">LEGO Tool for Rhino</h3>
       </div>
       <div class="modal-body">
         <article>
