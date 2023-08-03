@@ -4,7 +4,7 @@
 
 This portfolio is using [bootstrap](http://getbootstrap.com/) framework. It is a responsive web design so the layout will be adjusted according to the size of the web browser or screen.  
 
-![image](images/layout.png)
+![image](images/demo.png)
 
 
 ## Highlight
