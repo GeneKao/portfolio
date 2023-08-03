@@ -1,6 +1,6 @@
 ## GitHub Website
 
-by Gene Ting-Chun Kao
+> developed with <span style="color: #e25555;">&#9829;</span> by [Gene Ting-Chun Kao](https://geneatcg.com)
 
 This portfolio is using [bootstrap](http://getbootstrap.com/) framework. It is a responsive web design so the layout will be adjusted according to the size of the web browser or screen.  
 
