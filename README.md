@@ -1,3 +1,5 @@
+> **This portfolio has been migrated to [geneatcg.com/portfolio](https://www.geneatcg.com/portfolio/).**
+
 ## GitHub Website
 
 > developed with <span style="color: #e25555;">&#9829;</span> by [Gene Ting-Chun Kao](https://geneatcg.com)
